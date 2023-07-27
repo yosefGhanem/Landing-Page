@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(Roboto/Roboto-Bold.ttf) format('truetype');
+}
+
+*{
+    font-family: 'Roboto';
+
+}
+
+header{
+    background-color: rgb(5, 0, 41);
+    flex-direction: row;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    color: white;
+}
+
+.HeadBar {
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.icons{
+    width: 25%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.iconsbtn:hover{
+    cursor: pointer;
+    font-style: italic;
+    scale: 0.98;
+}
+
+.iconsbtn {
+    
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+    border: 0;
+    border-radius: 50%;
+    width: 20%;
+    height: 80%;
+    background-color: blue;
+}
+
+.TextImage {
+    display: flex;
+    color: white;
+    padding: 30px;
+}
+.productImage {
+    padding: 10px;
+}
+.mainText {
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    width: 50%;
+    cursor: pointer;
+    background-color: rgb(61, 61, 255);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    padding: 14px 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Designing second page */
+.headerFeature{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.parent {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap for responsive purpose */
+    flex-wrap: wrap;
+    border-color: blue;
+  }
+
+.parent > div{
+    width: auto;
+    letter-spacing: 10px;
+    flex-wrap: wrap;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.son {
+    background-color: black;
+    color: white;
+    border-width: 50px;
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+    padding: 30px 30px;
+    justify-content: space-between;
+    
+}
+.son:hover {
+background-color: blue;
+}
+
+/* styling third page */
+
+.myNav {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 700px;
+  }
+  
+  h3 {
+    margin: 0;
+    opacity: 0.5;
+    letter-spacing: 2px;
+  }
+  
+  .feedback {
+      width: 100%;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .txt {
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      width: 180%;
+      color: white;
+  }
+
+  /* Styling fourth page */
+  .Nav2 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+  }
+  
+  .container2 {
+    background-color: rgb(58, 88, 255);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 0px;
+    text-align: center;
+    display: flex;
+    /* 60% of the page */
+    width: 60%;
+    height: auto;
+  }
+  
+  .callToAction {
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    width: 80%;
+    
+  }
+  
+.ctabtn {
+    height: 40%;
+      background-color: rgb(255, 255, 255);
+      color: black;
+      border: 0;
+      border-radius: 10px;
+      font-size: 16px;
+      border: 0;
+      cursor: pointer;
+    }
+
+/* Styling the footer */
+.footer{
+    background-color: rgb(0, 0, 41);
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    margin-top: 10px;
+}
